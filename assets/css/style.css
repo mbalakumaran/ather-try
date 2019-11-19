@@ -1,0 +1,135 @@
+body {
+	font-family: "gotham-medium";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  color: #191919;  
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+ul li {
+	list-style-type: none;
+}
+a,
+a:hover {
+	text-decoration: none;
+}
+.mpad0 {
+	padding: 0px;
+}
+.row {
+	margin: 0px;
+}
+
+h2 {
+	font-size: 24px !important;
+	line-height: 36px !important;
+	margin: 0rem !important;
+	color: #191919;
+	font-family: "gotham-medium" !important;
+	font-weight: 300;
+}
+p {
+  margin-top: 12px;
+  color: #191919;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "gotham-book";
+}
+.common-spaceing {
+	padding: 120px 0px;
+}
+
+.bg-color-grey {
+	background-color: #f5f4f5;
+}
+a {
+	text-align: center;
+	display: block;
+	color: #ffffff;
+	font-size: 24px;
+	line-height: 22px;
+}
+label{
+  color: #97999B;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0% !important;
+  font-family: "gotham-book" !important;
+  font-weight: 100;
+}
+h1{
+  font-size: 32px !important;
+  line-height: 48px !important;
+  margin: 0rem !important;
+  color: #191919;
+  font-family: 'gotham-medium' !important;
+  font-weight: 300;
+}
+.inner-common-spacing{
+  padding: 160px 0px;
+}
+.common-lt-rt-pad{
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+.common-container{
+  width: 85%;
+  margin: 0px auto;
+}
+.green-bar{
+  height: 4px;
+  width: 32px;
+  background-color: #24BB3B;
+  display: block;
+  margin-bottom: 16px;
+}
+.tp-bt-pad{
+  padding: 90px 0px;
+}
+.bg-color-black-color {
+  background-color: #191919;
+}
+h3{
+  font-size: 20px !important;
+  line-height: 30px !important;
+  margin: 0rem !important;
+  color: #191919;
+  font-family: 'gotham-medium' !important;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "gotham-medium";
+  src:url("../fonts/gotham-medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "gotham-bold";
+  src:url("../fonts/gotham-bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "gotham-book";
+  src:url("../fonts/gotham-book.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "gotham-black";
+  src:url("../fonts/gotham-black.ttf") format("opentype");
+}
+.width-640{
+  width: 640px;
+}
+.width-400{
+  width: 400px;
+}
+

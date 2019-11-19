@@ -1,0 +1,57 @@
+.banner-section{
+  padding-bottom: 96px;
+}
+.banner{
+  margin-top: 0;
+  position: relative;
+  height: 100vh;
+}
+.banner-section .banner-img{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+.banner-section .banner-img img{
+  width: 50%;
+}
+.banner-desc {
+  text-align: center;
+  width: 400px;
+  margin: 0px auto;
+}
+.banner-desc h2 {
+  margin-bottom: 12px !important;
+}
+.banner-video-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video-container{
+  position: relative;
+}
+.banner-overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0px;
+  left: 0px;
+}
+.banner-video .video-container .banner-desc{
+  position: absolute;
+  width: 100%;
+  bottom: 50%;
+}
+.banner-video .video-container .banner-desc a svg{
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.banner-video .video-container .banner-desc a:hover{
+  color: #FFFFFF;  
+}

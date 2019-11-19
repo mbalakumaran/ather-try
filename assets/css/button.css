@@ -1,0 +1,19 @@
+.button{
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 22px;
+  outline: 0px;
+  outline-offset: 0px;
+  padding: 12px 0px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-family: "gotham-book";
+  position: relative;
+}
+.blk-btn{
+  background-color: #191919;
+  color: #FFFFFF;
+  min-width: 200px;
+}
