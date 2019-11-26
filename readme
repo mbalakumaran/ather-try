@@ -1,0 +1,42 @@
+<script type="text/javascript">
+  $(document).ready(function () {
+
+    // for remove and add active for in ride ,grid and about
+    var path = window.location.pathname;
+    $('.header-main-links ul li').removeClass('active');
+    if ((path == "/") || (path == "/grid") || (path == "/about")) {
+      $('.header-main-links ul li[data-nav="' + path + '"]').addClass('active');
+    }
+
+    // Mobile Header Link
+    $('.header-main-mob-links ul li').removeClass('active');
+    if ((path == "/") || (path == "/grid") || (path == "/about")) {
+      $('.header-main-mob-links ul li[data-nav="' + path + '"]').addClass('active');
+    }
+
+    $(".close-panel label,.closeMenu").on("click", function () {
+      $(".sidebar-panel").removeClass("active");
+      $('.closeMenu').css("display", "none");
+      $('body').css("overflow", "initial");
+    });
+
+    
+      $(".hambur-menu-web").on("click", function (e) {
+        e.preventDefault();
+          $(".sidebar-panel").addClass("active");
+          $('body').css("overflow", "hidden");
+          setTimeout(function (e) {
+            $('.closeMenu').css("display", "block");
+          }, 150);
+      });
+
+      $(".hambur-menu-mobile").on("click", function (e) {
+        e.preventDefault();
+        $("#mobile-sidebar").toggleClass("active");
+         $(".hambur-menu-mobile").toggleClass("open");
+         $(".header-mobile-section").toggleClass("active");
+         $("body").toggleClass("open");
+      });
+  });
+
+</script>

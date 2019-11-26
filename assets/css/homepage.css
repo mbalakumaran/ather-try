@@ -4,7 +4,7 @@
   font-style: italic;
   -webkit-text-stroke: 3px #E5E5E5;
   -webkit-text-fill-color: #f4f3f4;
-  font-family: "gotham-medium";
+  font-family: "gotham-black" !important;
   color: #f4f3f4;
   visibility: visible;
 }
@@ -125,8 +125,8 @@
   height: 75vh;
 }
 .reverse-mode-vedio video{
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 .reverse-mode-desc{
   position: absolute;
@@ -242,6 +242,9 @@
 .mobile-desc-list span{
   height: 2px;
 }
+
+/* charging */
+
 
 /* update-desc */
 
@@ -401,4 +404,220 @@
 }
 .activeclass{
   border-top: 6px solid #24BB3B;
+}
+.mobile{
+  display: none;
+}
+.margin-lt{
+  margin-left: 90px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1200px){
+  .ather-offer-card{
+    flex-basis: 30.5%;
+    margin-top: 30px;
+  }
+  .ather-offer-sec{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 991px){
+  .performance-card{
+    width: 100%;
+  }
+  .performance-card .pf-list-bg-num .number{
+    font-size: 134px;
+  }
+  .power-pack-desc {
+    width: 40%;
+  }
+  .power-pack-list {
+    width: 50%;
+  }
+  .power-pack-list-text {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+  .mobile-sec .common-lt-rt-pad {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .ather-offer-card{
+    flex-basis: 40.5%;
+  }
+  .ownershipe-card-desc {
+    padding-left: 5%;
+  }
+}
+@media screen and (max-width: 767px){
+  .performance-card .pf-list-bg-num .number {
+    font-size: 80px;
+  }
+  .performance-card .pf-list-num label {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .performance-card .pf-list-num span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .inner-common-spacing {
+    padding: 120px 0px;
+  }
+  .wheel-perfomance {
+    display: block;
+    padding-bottom: 60px;
+  }
+  .wheel-perfomance-video{
+    width: 100%;
+  }
+  .wheel-perfomance-content{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .power-pack-card{
+    display: block;
+  }
+  .power-pack-desc{
+    width: 100%;
+  }
+  .power-pack-list{
+    width: 100%;
+  }
+  .TrueRange{
+    width: 100%;
+  } 
+  .reverse-mode-vedio{
+    height: 118px;
+  }
+  .reverse-mode-desc {
+    width: 100%;
+    right: 0px;
+    top: 20%;
+  }
+  .intelligence-desc{
+    width: 100%;
+  }
+  .dashboard{
+    display: block;
+  }
+  .dashboard-desc{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .dashboard-desc:last-child{
+    margin-bottom: 0px;
+  }
+  .intelligence {
+    padding: 90px 0px 90px;
+  }
+  .intelligence-desc p{
+    display: none;
+  }
+  .mobile-desc{
+    display: none;
+  }
+  .mobile-img-mob{
+    width: 100%;
+    text-align: center;
+  }
+  .mobile-img-mob img{
+    width: 50%;
+  }
+  .mobile{
+    width: 400px;
+    margin: 0px auto;
+    display: block;
+  }
+  .mobile-img-sec {
+    display: none;
+  }
+  .mobile-sec .common-lt-rt-pad{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .mobile-sec .common-container{
+    padding: 90px 0px;
+  }
+  .update-sec{
+    display: block;
+  }
+  .update-desc{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .update-desc:last-child{
+    margin-bottom: 0px;
+  }
+  .experience-intro-sec{
+    width: 100%;
+  }
+  .margin-lt{
+    margin-left: 0px;
+  }
+  .ownershipe-card-sec{
+    display: block;
+    margin-top: 90px;
+  }
+  .ownershipe-card-desc{
+    padding: 0px;
+  }
+  .ather-offer-card{
+    flex-basis: 100%;
+  }
+  .ownershipe-card-desc h2{
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+  .exp-introducing {
+    padding: 0px 0px;
+  }
+  .ownershipe-card-desc ul li {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .ownershipe-card-icon img {
+    height: 35px;
+  }
+  .ather-offer-sec {
+    padding: 0px 15px;
+    margin-top: 0px;
+  }
+  .reverse-mode-desc p{
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 414px){
+  .pf-list-num {
+    position: absolute;
+    top: 20px;
+    left: 4px;
+    right: 0px;
+    text-align: center;
+  }
+  .performance-card .pf-list-num label {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .performance-card .pf-list-num span {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .performance-card .pf-list-bg-num .number {
+    font-size: 50px;
+  }
+  .video-container .banner-desc a{
+    width: 50%;
+    margin: 0px auto;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .banner-video .video-container .banner-desc a svg{
+    margin-left: 5px;
+    width: 16px;
+    height: 18px;
+  }
 }

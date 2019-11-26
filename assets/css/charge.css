@@ -1,0 +1,146 @@
+.charging-section .banner-desc {
+  padding: 64px 0px;
+  width: 640px;
+}
+
+.charging-section .left-side label {
+	padding-bottom: 4px;
+}
+
+.charging-section .left-side p {
+	margin-top: 12px;
+}
+.charging-section .left-side p a {
+  color: #24BB3B;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "gotham-book";
+  display: inline;
+}
+
+.charging-section .pinContainer {
+	position: relative;
+	padding: 0px;
+}
+
+.charging-section
+	.charge-swipe-section.scroll-start
+	.charge-wrapper#section-one {
+	background-attachment: scroll;
+}
+
+.charging-section
+	.charge-swipe-section.scroll-end
+	.charge-wrapper#section-three {
+	background-attachment: scroll;
+}
+
+.charging-section .charge-swipe-section .charge-wrapper {
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.charge-wrapper .common-container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.charging-section
+	.charge-swipe-section
+	.charge-wrapper
+	.common-container
+	.home-charger-desc {
+  flex-basis: 600px;
+  padding-top: 50px;
+}
+	.common-container
+	.home-charger-desc
+	ul {
+	display: flex;
+	justify-content: flex-start;
+	padding-bottom: 32px;
+}
+	.common-container
+	.home-charger-desc
+	ul
+	li {
+	flex-basis: 240px;
+	list-style-type: none;
+}
+
+	.common-container
+	.home-charger-desc
+	ul
+	li
+	label {
+	display: inline-block;
+	color: #191919;
+	font-family: "gotham-book";
+	font-size: 16px;
+	line-height: 24px;
+}
+	.common-container
+	.home-charger-desc
+	p {
+	font-size: 12px;
+}
+	.common-container
+	.home-charger-desc
+	p
+	a {
+	border-bottom: 1px solid #24bb3b;
+  color: #24bb3b;
+  display: inline;
+  font-size: 12px;
+}
+	.common-container
+	.charge-public-detail {
+	background-color: #ffffff;
+	padding: 48px;
+}
+	.common-container
+	.charge-public-detail
+	.content-section {
+	position: relative;
+	margin: 0px;
+	transform: initial;
+}
+	.common-container
+	.charge-public-detail
+	.charge-notes {
+	margin-top: 16px;
+	position: relative;
+}
+	.common-container
+	.charge-public-detail
+	.charge-notes
+	a {
+	margin-top: 32px;
+}
+
+.charging-section .charge-swipe-section .charge-wrapper#section-one {
+	background-image: url(https://frontpage-media-kit.s3-ap-southeast-1.amazonaws.com/images/original/ride/Home_2x.jpg);
+}
+
+.charging-section .charge-swipe-section .charge-wrapper#section-one {
+	background-image: url(https://frontpage-media-kit.s3-ap-southeast-1.amazonaws.com/images/original/ride/Home_2x.jpg);
+}
+
+.charging-section .charge-swipe-section .charge-wrapper#section-two {
+	background-image: url(https://frontpage-media-kit.s3-ap-southeast-1.amazonaws.com/images/original/ride/outside_2x.jpg);
+}
+
+.charging-section .charge-swipe-section .charge-wrapper#section-two {
+	background-image: url(https://frontpage-media-kit.s3-ap-southeast-1.amazonaws.com/images/original/ride/outside_2x.jpg);
+}
+
+.charging-section .charge-swipe-section .charge-wrapper#section-three {
+	background-image: url(https://frontpage-media-kit.s3-ap-southeast-1.amazonaws.com/images/original/ride/anywhere_2x_opti.jpg);
+}
+
+.charging-section .charge-swipe-section .charge-wrapper#section-three {
+	background-image: url(https://frontpage-media-kit.s3-ap-southeast-1.amazonaws.com/images/original/ride/anywhere_2x_opti.jpg);
+}

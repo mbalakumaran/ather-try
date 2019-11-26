@@ -1,0 +1,150 @@
+.header-navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0px;
+  height: 50px;
+}
+.header-section {
+  background-color: #E6E6E6;
+  width: 100%;
+  z-index: 99;
+  height: 48px;
+  transition: top 0.3s;
+  position: relative;
+}
+.header-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0px 30px;
+}
+.logo-section {
+  flex-grow: 0;
+}
+.logo-icon img {
+  width: 28px;
+}
+.header-main-links ul li {
+  max-width: 100px;
+  width: 100px;
+  position: relative;
+  display: inline-block;
+  margin: 0px 16px;
+}
+.header-main-links ul li a {
+  color: #191919;
+  font-size: 16px;
+  line-height: 24px !important;
+  text-decoration: none;
+  font-family: "gotham-book";
+}
+.hambur-menu {
+  flex-grow: 0;
+  cursor: pointer;
+}
+.hambur-menu div {
+  width: 17px;
+  height: 2px;
+  background-color: #191919;
+  margin: 3px 0;
+}
+.closeMenu {
+  position: fixed;
+  height: 100%;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+  display: none;
+  transition: opacity 3s ease-in-out;
+}
+.sidebar-panel {
+  background-color: #FFFFFF;
+  height: 425px;
+  width: 100%;
+  z-index: 9999;
+  position: fixed;
+  right: 0px;
+  top: -565px;
+  padding: 18px 32px;
+  transition: all .75s ease;
+  overflow: auto;
+}
+.sidebar-panel .close-panel {
+  display: block;
+  text-align: right;
+  padding: 0px 1%;
+}
+.close-panel a{
+  text-align: right;
+  padding-bottom: 30px;
+}
+.close-panel a svg {
+  font-size: 24px;
+  color: #191919;
+  width: 24px;
+  height: 24px;
+}
+.sidebar-panel .sidebar-links {
+  padding: 0px 1%;
+}
+.sidebar-links ul li {
+  text-align: right;
+  opacity: 1;
+  transition: all 1s ease;
+}
+.sidebar-links ul li a {
+  padding-bottom: 20px;
+  display: inline-block;
+  color: #75787B;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+  line-height: 20px;
+  font-family: "gotham-book";
+}
+.sidebar-panel-bottom {
+  text-align: right;
+}
+.sidebar-panel-bottom li {
+  display: inline-block;
+}
+.sidebar-panel-bottom li a {
+  font-size: 12px !important;
+  letter-spacing: 1px !important;
+  line-height: 12px !important;
+  padding: 0px;
+  padding-left: 18px !important;
+  text-transform: uppercase !important;
+}
+
+.sidebar-panel.active {
+  right: 0px;
+  top: 0px;
+  transition: all .75s ease;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1200px){
+  
+}
+@media screen and (max-width: 991px){
+  
+}
+@media screen and (max-width: 767px){
+  .header-main-links ul li{
+    width: auto;
+    margin: 0px 10px;
+  }
+  .sidebar-panel{
+    padding: 18px 20px;
+  } 
+  .header-container{
+    padding: 0px 15px;
+  }
+}
